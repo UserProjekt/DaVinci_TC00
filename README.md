@@ -51,7 +51,8 @@ You may need to set the these environment variables to allow for your Python ins
 
 ## Example
 First, import the FX3 Clips into the DaVinci Resolve media pool root folder. 
+Then, run this script. It will automatically modify the timecode to 00:00:00:00 for every Clip in the root folder.
 ![example](https://github.com/UserProjekt/DaVinci_TC00/assets/78477492/907c6219-c220-4ee8-a771-e1f21df2a44f)
 
-Then, run this script. It will automatically modify the timecode to 00:00:00:00 for every Clip in the root folder.
+
 
