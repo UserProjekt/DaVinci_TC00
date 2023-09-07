@@ -3,7 +3,7 @@ A simple solution to the FX3 timecode reading error caused by Adobe Premiere Pro
 
 For unknown reasons, Adobe Premiere Pro is unable to read the original timecode from FX3 footage. Instead, it defaults to a timecode of 00:00:00:00, both in the Premiere interface and in the exported XML. This creates a serious problem when attempting to rebuild the editing timeline from this XML.
 
-One solution is install [catalyst prepare plugin](https://support.d-imaging.sony.co.jp/app/cpplugin/en/index.php) for Premiere.(However, based on my experience and tests, this solution didn't work.)
+One solution is install [catalyst prepare plugin](https://support.d-imaging.sony.co.jp/app/cpplugin/en/index.php) for Premiere.(However, based on my experience and tests, this solution didn't work.) 
 
 As an alternative, modify the original timecode to 00:00:00:00. let Resolve to match with Premiere, and rebuilding the timeline correctly.
 
