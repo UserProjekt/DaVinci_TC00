@@ -1,5 +1,5 @@
 # DaVinci_TC00
-A simple solution to the Sony FX3 timecode reading error caused by Adobe Premiere Pro.
+A simple solution to the Sony FX3/FX30 Camera timecode reading error caused by Adobe Premiere Pro.
 
 For unknown reasons, Adobe Premiere Pro is unable to read the original timecode from FX3 footage. Instead, it defaults to a timecode of 00:00:00:00, both in the Premiere interface and in the exported XML. This creates a serious problem when attempting to rebuild the editing timeline from this XML.
 
